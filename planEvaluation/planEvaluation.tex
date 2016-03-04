@@ -1,0 +1,31 @@
+\documentclass[a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+
+\title{Progressive photon mapping~: Plan d'évaluation}
+\author{Kévin \textsc{Bannier} \and Billel \textsc{Hélali} \and Amaury \textsc{Louarn}}
+
+\begin{document}
+\maketitle
+
+\section{Objectifs de l'évaluation}
+Nous allons évaluer la méthode de \emph{progressive photon mapping} en se plaçant dans un contexte de production. La date limite de rendu de l'image synthétisée (ou de la séquence d'image) approchant, il devient nécessaire de pouvoir tenir les délais et avoir une image (ou une séquence d'images) exploitable pour la deadline.
+
+Ainsi, nous allons évaluer les capacités du \emph{progressive photon mapping} à synthétiser des images en tenant compte de contraintes temporelles.
+
+\section{Méthode d'évaluation}
+L'évaluation portera sur le résultat au bout d'un laps de temps, et nous comparerons l'image obtenue grâce au \emph{progressive photon mapping} à une image complète obtenue grâce à un \emph{path tracing} effectué durant le même laps de temps.
+
+La comparaison s'effectuera grâce au SSIM de chaque image par rapport à l'image \og parfaite \fg. Ceci permettra de comparer quelle méthode produit l'image la meilleur possible dans le laps de temps imparti.\\
+
+Idéalement, nous aimerions créer une petite animation grâce à chaque méthode, afin de pouvoir comparer visuellement les deux méthodes. L'animation durerai entre 5 et 10 secondes, et chaque image de l'animation aura été créée grâce aux deux méthodes, chacune pour le même laps de temps.\\
+
+Chaque image générée sera de grande taille ($1920 \times 1080$), et les scènes seront moyennement complexes.
+
+\section{Plan de test}
+Les tests s'effectuerons sur plusieurs images. Pour chaque image, nous donnerons un temps spécifié à mitsuba (par exemple, 1h). Une fois le rendu terminé, nous lancerons l'image suivante, et ainsi de suite.
+
+
+\end{document}
