@@ -11,21 +11,21 @@
 \maketitle
 
 \section{Objectifs de l'évaluation}
-Nous allons évaluer la méthode de \emph{progressive photon mapping} en se plaçant dans un contexte de production. La date limite de rendu de l'image synthétisée (ou de la séquence d'image) approchant, il devient nécessaire de pouvoir tenir les délais et avoir une image (ou une séquence d'images) exploitable pour la deadline.
+Nous allons évaluer la méthode de \emph{progressive photon mapping} en se plaçant dans le contexte de l'industrie filmographique. Notre évaluation se basera sur la capacité de cette méthode à générer des séquences d'images visuellement agréables, sous une contrainte temporelle pour le rendu de chaque image. La réussite ou l'échec de l'évaluation dépendra de la capacité de la méthode à tenir les délais maximaux de rendus alloués, ainsi que la qualité visuelle de l'image obtenue.
 
 Ainsi, nous allons évaluer les capacités du \emph{progressive photon mapping} à synthétiser des images en tenant compte de contraintes temporelles.
 
 \section{Méthode d'évaluation}
-L'évaluation portera sur le résultat au bout d'un laps de temps, et nous comparerons l'image obtenue grâce au \emph{progressive photon mapping} à une image complète obtenue grâce à un \emph{path tracing} effectué durant le même laps de temps.
+L'évaluation sera faite sur le résultat partiel à la fin du délai imparti pour le rendu de l'image. Nous comparerons l'image obtenue grâce au \emph{progressive photon mapping} à une image obtenue avec du \emph{path tracing}, dont le temps de rendu aura été tronqué à la fin d'un délai identique de rendu, sur la même machine.
 
-La comparaison s'effectuera grâce au SSIM de chaque image par rapport à l'image \og parfaite \fg. Ceci permettra de comparer quelle méthode produit l'image la meilleur possible dans le laps de temps imparti.\\
+La comparaison s'effectuera grâce au SSIM de chaque image par rapport à une image \og parfaite \fg de la scène (image obtenue grâce à du \emph{path tracing}, sur une longue durée). Ceci permettra de comparer quelle méthode produit l'image la meilleur possible dans le laps de temps imparti.\\
 
-Idéalement, nous aimerions créer une petite animation grâce à chaque méthode, afin de pouvoir comparer visuellement les deux méthodes. L'animation durerai entre 5 et 10 secondes, et chaque image de l'animation aura été créée grâce aux deux méthodes, chacune pour le même laps de temps.\\
+Idéalement, nous créerons alors une animation, où chaque \emph{frame} aura été générée de manière similaire (avec un délai imparti). De même que pour les images fixes, l'animation serait faite en parallèle avec du \emph{progressive photon mapping} et du \emph{path tracing}, afin de pouvoir comparer visuellement les deux résultats.\\
 
-Chaque image générée sera de grande taille ($1920 \times 1080$), et les scènes seront moyennement complexes.
+Chaque image générée sera de grande taille ($1280 \times 720$), et les scènes seront moyennement complexes (peu de modèles 3D, mais modèles moyennement à très détaillés), afin de pouvoir les insérer dans une vidée (par exemple, en tant qu'effets spéciaux).
 
 \section{Plan de test}
-Les tests s'effectuerons sur plusieurs images. Pour chaque image, nous donnerons un temps spécifié à mitsuba (par exemple, 1h). Une fois le rendu terminé, nous lancerons l'image suivante, et ainsi de suite.
+Nous commencerons par générer des images, alternativement avec du \emph{progressive photon mapping}, puis du \emph{ray tracing}. Le rendu sera arrêté au bout d'un certain délai (par exemple, 1h par image), et nous effectuerons le calcul du SSIM de chaque image sur le résultat de ce rendu tronqué. Nous utilisons le SSIM à la place du PSNR car le SSIM permet de calculer l'erreur \og visible par l'\oe il humain \fg, tandis que le PSNR calcule la correspondance bit à bit par rapport au signal. Comme nous nous plaçons dans le domaine du cinéma, et que chaque image générée a pour vocation d'être affichée brièvement (${1/24}^e$ de seconde), nous ne cherchons pas à obtenir des images \og parfaites \fg, mais des images \og suffisantes \fg, tout en jonglant avec les coûts inhérents au temps de rendu.
 
-
+Une fois toutes les images générées, nous créerons l'animation à partir des images, et nous procéderons à des tests subjectifs comparatifs entre les deux méthodes de rendu. Pour ce faire, nous montrerons les deux animations à des sujets de tests, et nous leur demanderons laquelle des deux animations est la meilleure visuellement.
 \end{document}
