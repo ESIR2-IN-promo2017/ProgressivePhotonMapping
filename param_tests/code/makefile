@@ -1,5 +1,5 @@
 CC=g++
-LIBS=-lvisp
+LIBS=-lvisp -lpthread
 FLAGS=-std=c++14 -Wall -pedantic -g -Og
 PROJECT_NAME=psnr_test.out
 
