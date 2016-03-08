@@ -1,0 +1,35 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{tikz}
+\usepackage{siunitx}
+\usepackage{pgfplots}
+
+\usetheme{Copenhagen}
+
+\title{Physically based rendering}
+\subtitle{Progressive photon mapping}
+\author[Bannier, Helali, Louarn]{Kévin \textsc{Bannier} \and Billel \textsc{Hélali} \and Amaury \textsc{Louarn}}
+\institute{\'Ecole Supérieure d'ingénieurs de Rennes\\Université de Rennes 1}
+\logo{\def\svgwidth{2cm}\input{esir.pdf_tex}}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+    \frametitle{Parameters}
+    \begin{figure}
+        \centering
+        \begin{tikzpicture}
+            \begin{axis}[
+                ]
+                \addplot
+                table[x=Photons per iteration, y=PSNR, col sep=comma] {data/photons.csv};
+                \legend{Plot}
+            \end{axis}
+        \end{tikzpicture}
+    \end{figure}
+\end{frame}
+
+\end{document}

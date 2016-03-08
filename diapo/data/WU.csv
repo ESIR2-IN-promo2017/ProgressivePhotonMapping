@@ -1,0 +1,5 @@
+Maximum depth,Initial radius,Photons per iteration,Work unit granularity,Russian roulette start depth,Size reduction parameter,Samples per pixel,Effective dimension,filter,filter parameters,PSNR
+6,1,250000,2,5,0.7,4,4,gaussian,"0.5",37.4091
+6,1,250000,3,5,0.7,4,4,gaussian,"0.5",37.4418
+6,1,250000,4,5,0.7,4,4,gaussian,"0.5",37.4968
+6,1,250000,5,5,0.7,4,4,gaussian,"0.5",37.5179
