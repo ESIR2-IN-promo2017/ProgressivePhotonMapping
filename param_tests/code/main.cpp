@@ -30,8 +30,6 @@ int main(int argc, char ** argv)
     for(unsigned int i = 0; i < nb_tests; ++i)
     {
         std::string filepath = data_dir;
-        if(i+1 < 10)
-            filepath += "0";
         filepath += std::to_string(i+1) + ".png";
         vpImageIo::read(tstImg, filepath);
         threadPool[i] = std::thread(psnr, refImg, tstImg, psnrs, i);
