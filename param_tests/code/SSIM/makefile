@@ -1,7 +1,7 @@
 CC=g++
-LIBS=-lvisp -lpthread
+LIBS= -lopencv_core -lopencv_highgui -lopencv_legacy -lopencv_imgproc
 FLAGS=-std=c++14 -Wall -pedantic -g -Og
-PROJECT_NAME=psnr_test.out
+PROJECT_NAME=ssim_test.out
 
 objects=main.o
 

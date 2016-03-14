@@ -10,9 +10,13 @@
  * The original work may be under copyrights. 
  */
 
-#include <cv.h>	
-#include <highgui.h>
-#include <iostream.h>
+#include <opencv2/core/core.hpp>	
+#include <opencv2/highgui/highgui.hpp>	
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/legacy/legacy.hpp>
+#include <iostream>
+
+using namespace std;
 
 /*
  * Parameters : complete path to the two image to be compared
