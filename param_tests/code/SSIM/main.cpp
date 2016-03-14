@@ -25,7 +25,10 @@ using namespace std;
 int main(int argc, char** argv)
 {
 	if(argc!=3)
+    {
+        std::cout << "not enough args" << std::endl;
 		return -1;
+    }
 	
 	// default settings
 	double C1 = 6.5025, C2 = 58.5225;
@@ -45,7 +48,10 @@ int main(int argc, char** argv)
 	img2_temp = cvLoadImage(argv[2]);
 
 	if(img1_temp==NULL || img2_temp==NULL)
+    {
+        std::cout << "error loading images" << std::endl;
 		return -1;
+    }
 
 	int x=img1_temp->width, y=img1_temp->height;
 	int nChan=img1_temp->nChannels, d=IPL_DEPTH_32F;
