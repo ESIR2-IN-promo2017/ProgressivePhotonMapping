@@ -148,10 +148,18 @@ int main(int argc, char** argv)
 	// through observation, there is approximately 
 	// 1% error max with the original matlab program
 
+    /*
+    //base output
 	cout << "(R, G & B SSIM index)" << endl ;
 	cout << index_scalar.val[2] * 100 << "%" << endl ;
 	cout << index_scalar.val[1] * 100 << "%" << endl ;
 	cout << index_scalar.val[0] * 100 << "%" << endl ;
+    //*/
+    
+    //CSV output : R,G,B SSIM indices
+    std::cout << index_scalar.val[2] * 100 << ",";
+    std::cout << index_scalar.val[1] * 100 << ",";
+    std::cout << index_scalar.val[0] * 100 << std::endl;
 
 	// if you use this code within a program
 	// don't forget to release the IplImages
