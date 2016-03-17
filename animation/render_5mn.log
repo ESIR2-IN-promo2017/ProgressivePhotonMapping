@@ -1,0 +1,853 @@
+2016-03-17 19:34:23 INFO  main [PluginManager] Loading plugin "plugins\ppm.dll" ..
+2016-03-17 19:34:23 INFO  main [PluginManager] Loading plugin "plugins\ldsampler.dll" ..
+2016-03-17 19:34:23 INFO  main [PluginManager] Loading plugin "plugins\gaussian.dll" ..
+2016-03-17 19:34:23 INFO  main [PluginManager] Loading plugin "plugins\hdrfilm.dll" ..
+2016-03-17 19:34:23 INFO  main [PluginManager] Loading plugin "plugins\perspective.dll" ..
+2016-03-17 19:34:23 INFO  main [PluginManager] Loading plugin "plugins\diffuse.dll" ..
+2016-03-17 19:34:23 INFO  main [PluginManager] Loading plugin "plugins\thindielectric.dll" ..
+2016-03-17 19:34:23 INFO  main [PluginManager] Loading plugin "plugins\dielectric.dll" ..
+2016-03-17 19:34:23 INFO  main [PluginManager] Loading plugin "plugins\roughplastic.dll" ..
+2016-03-17 19:34:23 INFO  main [PluginManager] Loading plugin "plugins\conductor.dll" ..
+2016-03-17 19:34:23 INFO  main [spectrum.cpp:601] "Cr.eta.spd": loaded a spectral power distribution with 28 entries (between 300.194000 and 885.570984 nm)
+2016-03-17 19:34:23 INFO  main [spectrum.cpp:601] "Cr.k.spd": loaded a spectral power distribution with 28 entries (between 300.194000 and 885.570984 nm)
+2016-03-17 19:34:23 INFO  main [spectrum.cpp:601] "Al.eta.spd": loaded a spectral power distribution with 56 entries (between 298.757050 and 885.601257 nm)
+2016-03-17 19:34:23 INFO  main [spectrum.cpp:601] "Al.k.spd": loaded a spectral power distribution with 56 entries (between 298.757050 and 885.601257 nm)
+2016-03-17 19:34:23 INFO  main [spectrum.cpp:601] "a-C.eta.spd": loaded a spectral power distribution with 14 entries (between 309.950012 and 885.570984 nm)
+2016-03-17 19:34:23 INFO  main [spectrum.cpp:601] "a-C.k.spd": loaded a spectral power distribution with 14 entries (between 309.950012 and 885.570984 nm)
+2016-03-17 19:34:23 INFO  main [PluginManager] Loading plugin "plugins\plastic.dll" ..
+2016-03-17 19:34:23 INFO  main [PluginManager] Loading plugin "plugins\obj.dll" ..
+2016-03-17 19:34:23 INFO  main [WavefrontOBJ] Loading geometry from "garageDoor_frame.obj" ..
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] garageDoor_frame: 8806 triangles, 3686 vertices (merged 22732 vertices).
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Done with "garageDoor_frame.obj" (took 209 ms)
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Loading geometry from "garageDoor_windows.obj" ..
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] garageDoor_windows: 16 triangles, 32 vertices (merged 16 vertices).
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Done with "garageDoor_windows.obj" (took 1 ms)
+2016-03-17 19:34:24 INFO  main [PluginManager] Loading plugin "plugins\shapegroup.dll" ..
+2016-03-17 19:34:24 INFO  main [KDTreeBase] Constructing a SAH kd-tree (8822 primitives) ..
+2016-03-17 19:34:24 INFO  main [KDTreeBase] Finished -- took 81 ms.
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Loading geometry from "SLS_stripped.obj" ..
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] SLS_stripped: 3748 triangles, 1969 vertices (merged 9275 vertices).
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Done with "SLS_stripped.obj" (took 130 ms)
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Loading geometry from "SLS_fascia.obj" ..
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] SLS_fascia: 97 triangles, 51 vertices (merged 240 vertices).
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Done with "SLS_fascia.obj" (took 3 ms)
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Loading geometry from "SLS_windows.obj" ..
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] SLS_windows: 102 triangles, 86 vertices (merged 220 vertices).
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Done with "SLS_windows.obj" (took 5 ms)
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Loading geometry from "SLS_headlights.obj" ..
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] SLS_headlights: 5056 triangles, 2584 vertices (merged 12584 vertices).
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Done with "SLS_headlights.obj" (took 175 ms)
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Loading geometry from "SLS_backlights.obj" ..
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] SLS_backlights: 116 triangles, 72 vertices (merged 276 vertices).
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Done with "SLS_backlights.obj" (took 5 ms)
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Loading geometry from "SLS_badges.obj" ..
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] SLS_badges: 1780 triangles, 1038 vertices (merged 4302 vertices).
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Done with "SLS_badges.obj" (took 71 ms)
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Loading geometry from "SLS_mirrors.obj" ..
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] SLS_mirrors: 40 triangles, 36 vertices (merged 84 vertices).
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Done with "SLS_mirrors.obj" (took 2 ms)
+2016-03-17 19:34:24 INFO  main [WavefrontOBJ] Loading geometry from "SLS_rims.obj" ..
+2016-03-17 19:34:25 INFO  main [WavefrontOBJ] SLS_rims: 19808 triangles, 10056 vertices (merged 49368 vertices).
+2016-03-17 19:34:25 INFO  main [WavefrontOBJ] Done with "SLS_rims.obj" (took 633 ms)
+2016-03-17 19:34:25 INFO  main [WavefrontOBJ] Loading geometry from "SLS_tires.obj" ..
+2016-03-17 19:34:26 INFO  main [WavefrontOBJ] SLS_tires: 22560 triangles, 11520 vertices (merged 56160 vertices).
+2016-03-17 19:34:26 INFO  main [WavefrontOBJ] Done with "SLS_tires.obj" (took 746 ms)
+2016-03-17 19:34:26 INFO  main [WavefrontOBJ] Loading geometry from "SLS_brakeDisks.obj" ..
+2016-03-17 19:34:26 INFO  main [WavefrontOBJ] SLS_brakeDisks: 5184 triangles, 2400 vertices (merged 13152 vertices).
+2016-03-17 19:34:26 INFO  main [WavefrontOBJ] Done with "SLS_brakeDisks.obj" (took 142 ms)
+2016-03-17 19:34:26 INFO  main [WavefrontOBJ] Loading geometry from "SLS_brakeCallipers.obj" ..
+2016-03-17 19:34:28 INFO  main [WavefrontOBJ] SLS_brakeCallipers: 59638 triangles, 29424 vertices (merged 149490 vertices).
+2016-03-17 19:34:28 INFO  main [WavefrontOBJ] Done with "SLS_brakeCallipers.obj" (took 1969 ms)
+2016-03-17 19:34:28 INFO  main [KDTreeBase] Constructing a SAH kd-tree (118129 primitives) ..
+2016-03-17 19:34:29 INFO  main [KDTreeBase] Finished -- took 835 ms.
+2016-03-17 19:34:29 INFO  main [PluginManager] Loading plugin "plugins\instance.dll" ..
+2016-03-17 19:34:29 INFO  main [WavefrontOBJ] Loading geometry from "lamp_chassis.obj" ..
+2016-03-17 19:34:29 INFO  main [WavefrontOBJ] lamp_chassis: 1576 triangles, 794 vertices (merged 3934 vertices).
+2016-03-17 19:34:29 INFO  main [WavefrontOBJ] Done with "lamp_chassis.obj" (took 45 ms)
+2016-03-17 19:34:29 INFO  main [PluginManager] Loading plugin "plugins\area.dll" ..
+2016-03-17 19:34:29 INFO  main [WavefrontOBJ] Loading geometry from "lamp_bulb.obj" ..
+2016-03-17 19:34:29 INFO  main [WavefrontOBJ] lamp_bulb: 1292 triangles, 580 vertices (merged 3296 vertices).
+2016-03-17 19:34:29 INFO  main [WavefrontOBJ] Done with "lamp_bulb.obj" (took 33 ms)
+2016-03-17 19:34:29 INFO  main [WavefrontOBJ] Loading geometry from "lamp_glass.obj" ..
+2016-03-17 19:34:29 INFO  main [WavefrontOBJ] lamp_glass: 28 triangles, 16 vertices (merged 68 vertices).
+2016-03-17 19:34:29 INFO  main [WavefrontOBJ] Done with "lamp_glass.obj" (took 0 ms)
+2016-03-17 19:34:29 INFO  main [WavefrontOBJ] Loading geometry from "neon_green.obj" ..
+2016-03-17 19:34:30 INFO  main [WavefrontOBJ] neon_green: 38090 triangles, 19172 vertices (merged 95098 vertices).
+2016-03-17 19:34:30 INFO  main [WavefrontOBJ] Done with "neon_green.obj" (took 1385 ms)
+2016-03-17 19:34:30 INFO  main [WavefrontOBJ] Loading geometry from "neon_red.obj" ..
+2016-03-17 19:34:30 INFO  main [WavefrontOBJ] neon_red: 3621 triangles, 1828 vertices (merged 9035 vertices).
+2016-03-17 19:34:30 INFO  main [WavefrontOBJ] Done with "neon_red.obj" (took 129 ms)
+2016-03-17 19:34:30 INFO  main [WavefrontOBJ] Loading geometry from "neon_back.obj" ..
+2016-03-17 19:34:30 INFO  main [WavefrontOBJ] neon_back: 221 triangles, 134 vertices (merged 529 vertices).
+2016-03-17 19:34:30 INFO  main [WavefrontOBJ] Done with "neon_back.obj" (took 6 ms)
+2016-03-17 19:34:30 INFO  main [PluginManager] Loading plugin "plugins\bitmap.dll" ..
+2016-03-17 19:34:30 INFO  main [BitmapTexture] Loading texture "concrete_stone_brick_tiles.jpg"
+2016-03-17 19:34:30 INFO  main [PluginManager] Loading plugin "plugins\lanczos.dll" ..
+2016-03-17 19:34:30 INFO  main [PluginManager] Loading plugin "plugins\roughdiffuse.dll" ..
+2016-03-17 19:34:30 INFO  main [PluginManager] Loading plugin "plugins\rectangle.dll" ..
+2016-03-17 19:34:30 INFO  main [BitmapTexture] Loading texture "cracked_concrete.jpg"
+2016-03-17 19:34:30 INFO  main [MIPMap] Mapped MIP map cache file "scenes/textures/cracked_concrete.mip" into memory (19.5 MiB).
+2016-03-17 19:34:30 INFO  main [KDTreeBase] Constructing a SAH kd-tree (1 primitives) ..
+2016-03-17 19:34:30 INFO  main [KDTreeBase] Finished -- took 0 ms.
+Scene[
+  sensor = ref<PerspectiveCameraImpl>[ref=2, ptr=PerspectiveCamera[
+    xfov = 39.3077,
+    nearClip = 10,
+    farClip = 2800,
+    worldTransform = ref<AnimatedTransform>[ref=1, ptr=Matrix4x4[
+      -0.925584, -0.216055, -0.310829, 579.552;
+      -0.091626, 0.924574, -0.369822, 399.798;
+      0.367286, -0.313821, -0.875567, 689.91;
+      0, 0, 0, 1
+    ]],
+    sampler = LowDiscrepancySampler[
+      sampleCount = 4,
+      dimension = 4
+    ],
+    film = HDRFilm[
+      size = [512, 512],
+      fileFormat = 1,
+      pixelFormat = rgb, 
+      channelNames = "R", "G", "B", 
+      componentFormat = float16,
+      cropOffset = [0, 0],
+      cropSize = [512, 512],
+      banner = 1,
+      filter = GaussianFilter[stddev=0.500000, radius=2.000000]
+    ],
+    medium = ref<Medium>[null],
+    shutterOpen = 0,
+    shutterOpenTime = 0
+  ]],
+  sampler = ref<LowDiscrepancySampler>[ref=2, ptr=LowDiscrepancySampler[
+    sampleCount = 4,
+    dimension = 4
+  ]],
+  integrator = ref<PPMIntegrator>[ref=1, ptr=SPPMIntegrator[
+    maxDepth = -1,
+    rrDepth = 3,
+    initialRadius = 0,
+    alpha = 0.7,
+    photonCount = 250000,
+    granularity = 0,
+    maxPasses = -1
+  ]],
+  kdtree = ref<ShapeKDTree>[ref=1, ptr=ShapeKDTree[unknown]],
+  environmentEmitter = ref<Emitter>[null],
+  shapes = {
+    ShapeGroup[
+      name = "garageDoor",
+      primCount = 8822
+    ],
+    ShapeGroup[
+      name = "SLS",
+      primCount = 118129
+    ],
+    Instance[unknown],
+    WavefrontOBJ[unknown],
+    WavefrontOBJ[unknown],
+    WavefrontOBJ[unknown],
+    Instance[unknown],
+    WavefrontOBJ[unknown],
+    WavefrontOBJ[unknown],
+    WavefrontOBJ[unknown],
+    Rectangle[
+      objectToWorld = Matrix4x4[
+        300, 0, 0, 300;
+        0, -4.37114e-008, 1, 0;
+        0, -150, -6.55671e-006, -100;
+        0, 0, 0, 1
+      ],
+      bsdf = ref<RoughDiffuse>[ref=1, ptr=RoughDiffuse[
+        id = "unnamed",
+        reflectance = BitmapTexture[
+          filename = "scenes/textures/concrete_stone_brick_tiles.jpg",
+          mipmap = ref<MIPMap>[ref=1, ptr=TMIPMap[
+             pixelFormat = rgb,
+             size = 6.2 MiB,
+             levels = 11,
+             cached = no,
+             filterType = ewa,
+             bc = [repeat, repeat],
+             minimum = [0, 0, 0],
+             maximum = [0.467784, 0.42869, 0.346704],
+             average = [0.170709, 0.148595, 0.112223]
+          ]]
+        ],
+        alpha = 0.2,
+        useFastApprox = 0
+      ]],
+      emitter = ref<Emitter>[null],
+      sensor = ref<Sensor>[null],
+      subsurface = ref<Subsurface>[null]
+    ],
+    ShapeGroup[
+      name = "mur",
+      primCount = 1
+    ],
+    Instance[unknown],
+    Instance[unknown]
+  },
+  emitters = {
+  },
+  media = {
+  },
+  sensors = {
+    PerspectiveCamera[
+      xfov = 39.3077,
+      nearClip = 10,
+      farClip = 2800,
+      worldTransform = ref<AnimatedTransform>[ref=1, ptr=Matrix4x4[
+        -0.925584, -0.216055, -0.310829, 579.552;
+        -0.091626, 0.924574, -0.369822, 399.798;
+        0.367286, -0.313821, -0.875567, 689.91;
+        0, 0, 0, 1
+      ]],
+      sampler = LowDiscrepancySampler[
+        sampleCount = 4,
+        dimension = 4
+      ],
+      film = HDRFilm[
+        size = [512, 512],
+        fileFormat = 1,
+        pixelFormat = rgb, 
+        channelNames = "R", "G", "B", 
+        componentFormat = float16,
+        cropOffset = [0, 0],
+        cropSize = [512, 512],
+        banner = 1,
+        filter = GaussianFilter[stddev=0.500000, radius=2.000000]
+      ],
+      medium = ref<Medium>[null],
+      shutterOpen = 0,
+      shutterOpenTime = 0
+    ]
+  },
+  ssIntegrators = {
+  },
+  objects = {
+    SmoothDiffuse[
+      id = "white",
+      reflectance = [0.885809, 0.698859, 0.666422]
+    ],
+    ThinDielectric[
+      id = "glass",
+      eta = 1.46959,
+      specularReflectance = [1, 1, 1],
+      specularTransmittance = [1, 1, 1]
+    ],
+    SmoothDielectric[
+      id = "fullglass",
+      eta = 1.46959,
+      specularReflectance = [1, 1, 1],
+      specularTransmittance = [1, 1, 1]
+    ],
+    RoughPlastic[
+      id = "bodywork",
+      distribution = beckmann,
+     2016-03-17 19:34:30 INFO  testJob[KDTreeBase] Constructing a SAH kd-tree (44833 primitives) ..
+2016-03-17 19:34:31 INFO  testJob[KDTreeBase] Finished -- took 500 ms.
+2016-03-17 19:34:31 INFO  testJob[PPMIntegrator] Starting render job (512x512, 4 samples, 8 cores, SSE2 enabled) ..
+2016-03-17 19:34:31 INFO  testJob[PPMIntegrator] Creating approximately 1048576 gather points ..
+2016-03-17 19:34:31 INFO  testJob[PluginManager] Loading plugin "plugins\independent.dll" ..
+2016-03-17 19:34:32 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 1 (0 photons so far)
+Gathering photons: [++++++++++++++++++++++              ] (1.0s, ETA: 0.6s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  
+2016-03-17 19:34:34 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:34:35 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 2 (250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:34:37 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:34:38 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 3 (500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  
+2016-03-17 19:34:40 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:34:41 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+2016-03-17 19:34:41 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 4 (750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++++       ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  
+2016-03-17 19:34:42 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:34:43 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 5 (1000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:34:45 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:34:45 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 6 (1250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:34:47 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:34:48 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 7 (1500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:34:49 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:34:50 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 8 (1750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  
+2016-03-17 19:34:52 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:34:52 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:34:52 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 9 (2000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++++       ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: -0.0s)  
+2016-03-17 19:34:54 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:34:55 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 10 (2250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:34:56 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:34:57 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 11 (2500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:34:59 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:34:59 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 12 (2750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:01 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:02 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 13 (3000000 photons so far)
+2016-03-17 19:35:03 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:03 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:04 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 14 (3250000 photons so far)
+2016-03-17 19:35:04 WARN  wrk5 [vector.h:538] Vector3: Division by zero!
+Gathering photons: [++++++++++++++++++++++++++++        ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:35:05 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:06 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 15 (3500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:07 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:08 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 16 (3750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:10 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:10 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 17 (4000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:12 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:12 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 18 (4250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  
+2016-03-17 19:35:14 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:14 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:15 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 19 (4500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++++       ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:35:16 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:17 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 20 (4750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:18 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:19 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 21 (5000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:20 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:21 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 22 (5250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:23 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:23 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 23 (5500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:25 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:25 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:25 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 24 (5750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++++       ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  
+2016-03-17 19:35:27 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:27 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 25 (6000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:29 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:29 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 26 (6250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:31 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:31 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 27 (6500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:33 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:34 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 28 (6750000 photons so far)
+2016-03-17 19:35:34 WARN  wrk2 [vector.h:538] Vector3: Division by zero!
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:35 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:36 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+2016-03-17 19:35:36 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 29 (7000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++++       ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  
+2016-03-17 19:35:37 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:38 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 30 (7250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:39 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:40 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 31 (7500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  
+2016-03-17 19:35:41 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:42 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 32 (7750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:44 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:44 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 33 (8000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:46 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:46 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 34 (8250000 photons so far)
+2016-03-17 19:35:47 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [+++++++++++++++++++++++++++         ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:35:48 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:48 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 35 (8500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++         ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:50 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:50 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 36 (8750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:52 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:52 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 37 (9000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:54 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:54 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 38 (9250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:56 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:56 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 39 (9500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  
+2016-03-17 19:35:58 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:35:58 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:35:58 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 40 (9750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++++       ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:36:00 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:00 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 41 (10000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:02 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:03 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 42 (10250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:04 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:05 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 43 (10500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:06 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:07 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 44 (10750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:08 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:09 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+2016-03-17 19:36:09 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 45 (11000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++++       ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: -0.0s)  
+2016-03-17 19:36:10 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:11 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 46 (11250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:12 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:13 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 47 (11500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:14 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:15 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 48 (11750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:16 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:17 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 49 (12000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:18 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:19 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 50 (12250000 photons so far)
+2016-03-17 19:36:19 WARN  wrk4 [vector.h:538] Vector3: Division by zero!
+2016-03-17 19:36:20 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [++++++++++++++++++++++++++          ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:36:20 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:21 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 51 (12500000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++++        ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:36:22 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:23 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 52 (12750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:24 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:25 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 53 (13000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++             ] (1.0s, ETA: 0.5s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  
+2016-03-17 19:36:27 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:27 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 54 (13250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:29 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:29 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 55 (13500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:31 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:31 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:31 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 56 (13750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++++       ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  
+2016-03-17 19:36:33 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:33 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 57 (14000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:35 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:35 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 58 (14250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:37 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:37 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 59 (14500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:39 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:39 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 60 (14750000 photons so far)
+Gathering photons: [++++++++++++++++++++++++            ] (1.0s, ETA: 0.5s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  
+2016-03-17 19:36:41 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:41 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 61 (15000000 photons so far)
+2016-03-17 19:36:42 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+2016-03-17 19:36:42 WARN  wrk6 [vector.h:538] Vector3: Division by zero!
+Gathering photons: [+++++++++++++++++++++++++++         ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:36:43 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:43 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 62 (15250000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++          ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:45 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:45 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 63 (15500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:47 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:47 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 64 (15750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:49 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:49 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 65 (16000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  
+2016-03-17 19:36:51 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:51 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 66 (16250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  
+2016-03-17 19:36:53 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:53 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:53 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 67 (16500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++++       ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  
+2016-03-17 19:36:55 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:55 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 68 (16750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:57 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:57 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 69 (17000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:36:59 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:36:59 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 70 (17250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:01 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:01 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 71 (17500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:03 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:03 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 72 (17750000 photons so far)
+2016-03-17 19:37:04 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [+++++++++++++++++++++++++++         ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:37:05 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:05 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 73 (18000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++         ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:07 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:07 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 74 (18250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:09 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:09 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 75 (18500000 photons so far)
+Gathering photons: [++++++++++++++++++++++++            ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  
+2016-03-17 19:37:11 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:11 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 76 (18750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:13 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:13 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 77 (19000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  
+2016-03-17 19:37:15 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:15 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:15 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 78 (19250000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++++        ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  
+2016-03-17 19:37:17 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:17 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 79 (19500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:19 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:19 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 80 (19750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:21 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:21 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 81 (20000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:23 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:23 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 82 (20250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:25 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:25 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 83 (20500000 photons so far)
+2016-03-17 19:37:26 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [++++++++++++++++++++++++++          ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:37:27 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:27 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 84 (20750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++         ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:37:29 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:29 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 85 (21000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:31 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:31 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 86 (21250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:33 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:33 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 87 (21500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:35 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:35 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 88 (21750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:37 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+2016-03-17 19:37:37 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:37 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 89 (22000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++++       ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  
+2016-03-17 19:37:38 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:39 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 90 (22250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:40 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:41 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 91 (22500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  
+2016-03-17 19:37:42 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:43 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 92 (22750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:44 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:45 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 93 (23000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:46 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:47 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 94 (23250000 photons so far)
+2016-03-17 19:37:48 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:48 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:49 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 95 (23500000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++++        ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:37:50 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:51 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 96 (23750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:52 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:53 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 97 (24000000 photons so far)
+2016-03-17 19:37:53 WARN  wrk7 [vector.h:538] Vector3: Division by zero!
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:54 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:55 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 98 (24250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:56 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:57 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 99 (24500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:37:58 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:37:59 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+2016-03-17 19:37:59 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 100 (24750000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++++        ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:38:00 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:00 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 101 (25000000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++          ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:02 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:02 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 102 (25250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:04 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:04 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 103 (25500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:06 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:06 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 104 (25750000 photons so far)
+Gathering photons: [++++++++++++++++++++++++            ] (1.0s, ETA: 0.5s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  
+2016-03-17 19:38:08 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:08 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 105 (26000000 photons so far)
+Gathering photons: [++++++++++++++++++++++++            ] (1.0s, ETA: 0.4s)  
+2016-03-17 19:38:10 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:10 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:10 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 106 (26250000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++++        ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:12 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:12 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 107 (26500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:14 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:14 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 108 (26750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++             ] (1.0s, ETA: 0.5s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  
+2016-03-17 19:38:16 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:17 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 109 (27000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:18 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:19 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 110 (27250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  
+2016-03-17 19:38:20 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:21 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+2016-03-17 19:38:21 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 111 (27500000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++++        ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  
+2016-03-17 19:38:22 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:22 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 112 (27750000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++          ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:24 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:24 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 113 (28000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:26 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:26 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 114 (28250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:28 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:28 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 115 (28500000 photons so far)
+Gathering photons: [++++++++++++++++++++++++            ] (1.0s, ETA: 0.5s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.5s, ETA: 0.0s)  
+2016-03-17 19:38:30 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:30 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 116 (28750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  
+2016-03-17 19:38:32 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:32 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:32 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 117 (29000000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++++        ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  
+2016-03-17 19:38:34 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:34 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 118 (29250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:36 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:36 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 119 (29500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:38 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:38 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 120 (29750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:40 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:40 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 121 (30000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:42 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:42 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 122 (30250000 photons so far)
+2016-03-17 19:38:43 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [++++++++++++++++++++++++++          ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:38:43 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:44 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 123 (30500000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++++        ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:38:45 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:46 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 124 (30750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:47 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:48 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 125 (31000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:49 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:50 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 126 (31250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:51 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:52 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 127 (31500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:53 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:54 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+2016-03-17 19:38:54 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 128 (31750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++++       ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  
+2016-03-17 19:38:55 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:55 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 129 (32000000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++          ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:57 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:57 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 130 (32250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:38:59 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:38:59 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 131 (32500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:39:01 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:01 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 132 (32750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:39:03 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:03 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 133 (33000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  
+2016-03-17 19:39:05 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:39:05 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:05 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 134 (33250000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++          ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:39:07 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:07 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 135 (33500000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:39:09 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:09 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 136 (33750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:39:11 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:11 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 137 (34000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:39:13 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:13 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 138 (34250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:39:15 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:15 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 139 (34500000 photons so far)
+2016-03-17 19:39:16 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+2016-03-17 19:39:16 WARN  wrk4 [vector.h:538] Vector3: Division by zero!
+Gathering photons: [++++++++++++++++++++++++++          ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:39:17 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:17 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 140 (34750000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++++        ] (1.0s, ETA: 0.3s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.3s, ETA: 0.0s)  
+2016-03-17 19:39:18 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:19 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 141 (35000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:39:20 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:21 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 142 (35250000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:39:22 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:23 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 143 (35500000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++          ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:39:24 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:25 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 144 (35750000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++           ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:39:26 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:27 INFO  main [HDRFilm] Writing image to "results/rendererResult.exr" ..
+2016-03-17 19:39:27 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 145 (36000000 photons so far)
+Gathering photons: [+++++++++++++++++++++++++++++       ] (1.0s, ETA: 0.2s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: -0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.2s, ETA: 0.0s)  
+2016-03-17 19:39:28 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:28 INFO  testJob[PPMIntegrator] Performing a photon mapping pass 146 (36250000 photons so far)
+Gathering photons: [++++++++++++++++++++++++++          ] (1.0s, ETA: 0.4s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  Gathering photons: [++++++++++++++++++++++++++++++++++++] (1.4s, ETA: 0.0s)  
+2016-03-17 19:39:30 INFO  testJob[PPMIntegrator] Gathering ..
+2016-03-17 19:39:30 INFO  testJob[RenderJob] Render time: 5.0007m
+2016-03-17 19:39:30 INFO  testJob[HDRFilm] Writing image to "results/rendererResult.exr" ..
+ alpha = 0.1,
+      specularReflectance = [1, 1, 1],
+      diffuseReflectance = [0.00913406, 0.0595112, 0.107023],
+      specularSamplingWeight = 0.950366,
+      diffuseSamplingWeight = 0.0496341,
+      eta = 1.48959,
+      nonlinear = 0
+    ],
+    SmoothConductor[
+      id = "chrome",
+      eta = [4.4886, 2.90568, 1.6616],
+      k = [5.21426, 4.22714, 3.75097],
+      specularReflectance = [1, 1, 1]
+    ],
+    SmoothConductor[
+      id = "alu",
+      eta = [1.65987, 0.881348, 0.521308],
+      k = [9.22418, 6.26949, 4.83666],
+      specularReflectance = [1, 1, 1]
+    ],
+    SmoothConductor[
+      id = "brakeDisks",
+      eta = [2.92989, 2.22805, 1.9691],
+      k = [0.892052, 0.79168, 0.815503],
+      specularReflectance = [1, 1, 1]
+    ],
+    RoughPlastic[
+      id = "breakCallipers",
+      distribution = beckmann,
+      alpha = 0.1,
+      specularReflectance = [1, 1, 1],
+      diffuseReflectance = [1, 0, 0],
+      specularSamplingWeight = 0.824626,
+      diffuseSamplingWeight = 0.175374,
+      eta = 1.48959,
+      nonlinear = 0
+    ],
+    SmoothDiffuse[
+      id = "tires",
+      reflectance = [0.0331048, 0.0331048, 0.0331048]
+    ],
+    SmoothConductor[
+      id = "mirror",
+      eta = [0, 0, 0],
+      k = [0.999723, 0.999723, 0.999723],
+      specularReflectance = [1, 1, 1]
+    ],
+    SmoothPlastic[
+      id = "blackPlastic",
+      specularReflectance = [1, 1, 1],
+      diffuseReflectance = [0.0331048, 0.0331048, 0.0331048],
+      specularSamplingWeight = 0.967956,
+      diffuseSamplingWeight = 0.032044,
+      nonlinear = 0,
+      eta = 1.48959,
+      fdrInt = 0.589992,
+      fdrExt = 0.0902456
+    ]
+  }
+]
+starting render for 300 seconds
+----successfully moved to results/rendererResult_11.0----
+----successfully moved to results/rendererResult_22.0----
+----successfully moved to results/rendererResult_33.0----
+----successfully moved to results/rendererResult_44.0----
+----successfully moved to results/rendererResult_55.0----
+----successfully moved to results/rendererResult_66.0----
+----successfully moved to results/rendererResult_77.0----
+----successfully moved to results/rendererResult_88.0----
+----successfully moved to results/rendererResult_99.0----
+----successfully moved to results/rendererResult_110.0----
+----successfully moved to results/rendererResult_121.0----
+----successfully moved to results/rendererResult_132.0----
+----successfully moved to results/rendererResult_143.0----
+----successfully moved to results/rendererResult_154.0----
+----successfully moved to results/rendererResult_165.0----
+----successfully moved to results/rendererResult_176.0----
+----successfully moved to results/rendererResult_187.0----
+----successfully moved to results/rendererResult_198.0----
+----successfully moved to results/rendererResult_209.0----
+----successfully moved to results/rendererResult_220.0----
+----successfully moved to results/rendererResult_231.0----
+----successfully moved to results/rendererResult_242.0----
+----successfully moved to results/rendererResult_253.0----
+----successfully moved to results/rendererResult_264.0----
+----successfully moved to results/rendererResult_275.0----
+----successfully moved to results/rendererResult_286.0----
+----successfully moved to results/rendererResult_297.0----
+------------------------------------------------------------
+ * Loaded plugins :
+    -  plugins\area.dll [Area light]
+    -  plugins\bitmap.dll [Bitmap texture]
+    -  plugins\conductor.dll [Smooth conductor]
+    -  plugins\dielectric.dll [Smooth dielectric BSDF]
+    -  plugins\diffuse.dll [Smooth diffuse BRDF]
+    -  plugins\gaussian.dll [Gaussian reconstruction filter]
+    -  plugins\hdrfilm.dll [High dynamic range film]
+    -  plugins\independent.dll [Independent sampler]
+    -  plugins\instance.dll [Instanced geometry]
+    -  plugins\lanczos.dll [Lanczos Sinc filter]
+    -  plugins\ldsampler.dll [Low discrepancy sampler]
+    -  plugins\obj.dll [OBJ triangle mesh loader]
+    -  plugins\perspective.dll [Perspective camera]
+    -  plugins\plastic.dll [Smooth plastic BRDF]
+    -  plugins\ppm.dll [Progressive photon mapper]
+    -  plugins\rectangle.dll [Rectangle intersection primitive]
+    -  plugins\roughdiffuse.dll [Rough diffuse BRDF]
+    -  plugins\roughplastic.dll [Rough plastic BRDF]
+    -  plugins\shapegroup.dll [Grouped geometry for instancing]
+    -  plugins\thindielectric.dll [Thin dielectric BSDF]
+
+  * General :
+    -  Normal rays traced : 609.694 M
+
+  * Texture system :
+    -  Cumulative MIP map memory allocations : 25.741 MiB
+    -  Filtered texture lookups : 0.00 % (0.00 of 254.58 M)
+------------------------------------------------------------
