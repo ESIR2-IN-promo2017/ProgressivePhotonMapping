@@ -230,17 +230,33 @@
         </bsdf>
     </shape>
 
-    <!-- mur 1 -->
-    <shape type="rectangle">
+    <!-- mur -->
+    <shape type="shapegroup" id="mur">
+        <shape type="rectangle">
+            <bsdf type="roughdiffuse">
+                <texture name="reflectance" type="bitmap">
+                    <string name="filename" value="textures/cracked_concrete.jpg"/>
+                </texture>
+            </bsdf>
+        </shape>
+    </shape>
+
+    <!-- mur côté -->
+    <shape type="instance">
+        <ref id="mur"/>
         <transform name="toWorld">
             <scale x="300" y="120"/>
             <translate x="300" y="120" z="-250"/>
         </transform>
+    </shape>
 
-        <bsdf type="roughdiffuse">
-            <texture name="reflectance" type="bitmap">
-                <string name="filename" value="textures/cracked_concrete.jpg"/>
-            </texture>
-        </bsdf>
+    <!-- mur fond -->
+    <shape type="instance">
+        <ref id="mur"/>
+        <transform name="toWorld">
+            <rotate y="1" angle="-90"/>
+            <scale z="150" y="120"/>
+            <translate x="600" y="120" z="-100"/>
+        </transform>
     </shape>
 </scene>
