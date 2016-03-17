@@ -63,57 +63,57 @@
 
 	<shape type="shapegroup" id="SLS">
 		<shape type="obj">
-			<string name="filename" value="meshes/SLS_stripped.obj"/>
+            <string name="filename" value="meshes/SLS/SLS_stripped.obj"/>
 			<ref id="bodywork"/>
 		</shape>
 
 		<shape type="obj">
-			<string name="filename" value="meshes/SLS_fascia.obj"/>
+			<string name="filename" value="meshes/SLS/SLS_fascia.obj"/>
 			<ref id="white"/>
 		</shape>
 
 		<shape type="obj">
-			<string name="filename" value="meshes/SLS_windows.obj"/>
+			<string name="filename" value="meshes/SLS/SLS_windows.obj"/>
 			<ref id="glass"/>
 		</shape>
 
 		<shape type="obj">
-			<string name="filename" value="meshes/SLS_headlights.obj"/>
+			<string name="filename" value="meshes/SLS/SLS_headlights.obj"/>
 			<ref id="white"/>
 		</shape>
 
 		<shape type="obj">
-			<string name="filename" value="meshes/SLS_backlights.obj"/>
+			<string name="filename" value="meshes/SLS/SLS_backlights.obj"/>
 			<ref id="white"/>
 		</shape>
 
 		<shape type="obj">
-			<string name="filename" value="meshes/SLS_badges.obj"/>
+			<string name="filename" value="meshes/SLS/SLS_badges.obj"/>
 			<ref id="badges"/>
 		</shape>
 
 		<shape type="obj">
-			<string name="filename" value="meshes/SLS_mirrors.obj"/>
+			<string name="filename" value="meshes/SLS/SLS_mirrors.obj"/>
 			<ref id="mirror"/>
 		</shape>
 
 		<shape type="obj">
-			<string name="filename" value="meshes/SLS_rims.obj"/>
+			<string name="filename" value="meshes/SLS/SLS_rims.obj"/>
 			<ref id="rims"/>
 		</shape>
 
 		<shape type="obj">
-			<string name="filename" value="meshes/SLS_tires.obj"/>
+			<string name="filename" value="meshes/SLS/SLS_tires.obj"/>
 			<ref id="tires"/>
 		</shape>
 
 		<shape type="obj">
-			<string name="filename" value="meshes/SLS_brakeDisks.obj"/>
+			<string name="filename" value="meshes/SLS/SLS_brakeDisks.obj"/>
 			<ref id="brakeDisks"/>
 		</shape>
 
 		<shape type="obj">
-			<string name="filename" value="meshes/SLS_brakeCallipers.obj"/>
+			<string name="filename" value="meshes/SLS/SLS_brakeCallipers.obj"/>
 			<ref id="breakCallipers"/>
 		</shape>
 	</shape>
