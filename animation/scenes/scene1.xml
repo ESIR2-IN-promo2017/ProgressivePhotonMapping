@@ -33,6 +33,11 @@
 		<string name="extIOR" value="air"/>
 	</bsdf>
 
+	<bsdf type="dielectric" id="fullglass">
+		<string name="intIOR" value="pyrex"/>
+		<string name="extIOR" value="air"/>
+	</bsdf>
+
 	<bsdf type="roughplastic" id="bodywork">
 		<srgb name="diffuseReflectance" value="#18455c"/>
 	</bsdf>
@@ -60,6 +65,32 @@
     <bsdf type="conductor" id="mirror">
         <string name="material" value="none"/>
     </bsdf>
+
+    <shape type="shapegroup" id="lamp">
+        <shape type="obj">
+            <string name="filename" value="meshes/lamp/lamp_chassis.obj"/>
+            <ref id="white" />
+        </shape>
+        <shape type="obj">
+            <string name="filename" value="meshes/lamp/lamp_bulb.obj"/>
+            <ref id="white" />
+        </shape>
+        <shape type="obj">
+            <string name="filename" value="meshes/lamp/lamp_glass.obj"/>
+            <ref id="fullglass" />
+        </shape>
+    </shape>
+
+    <shape type="shapegroup" id="garageDoor">
+        <shape type="obj">
+            <string name="filename" value="meshes/garageDoor/garageDoor_frame.obj"/>
+            <ref id="white"/>
+        </shape>
+        <shape type="obj">
+            <string name="filename" value="meshes/garageDoor/garageDoor_windows.obj"/>
+            <ref id="glass" />
+        </shape>
+    </shape>
 
 	<shape type="shapegroup" id="SLS">
 		<shape type="obj">
@@ -118,10 +149,27 @@
 		</shape>
 	</shape>
 
+    <!--
 	<shape type="instance">
 		<ref id="SLS"/>
 		<transform name="toWorld">
 			<rotate x="1" angle="-90"/>
 		</transform>
 	</shape>
+    -->
+
+    <shape type="instance">
+        <ref id="lamp"/>
+        <transform name="toWorld">
+            <rotate x="1" angle="-90"/>
+            <translate y="215"/>
+        </transform>
+    </shape>
+
+    <shape type="instance">
+        <ref id="garageDoor"/>
+        <transform name="toWorld">
+            <rotate x="1" angle="-90"/>
+        </transform>
+    </shape>
 </scene>
