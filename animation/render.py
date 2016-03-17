@@ -38,7 +38,7 @@ job.start()
 startTime = time.time()
 renderInterval = 10
 renderOutputDuration = 2;
-renderLength = 5*60
+renderLength = 30*60
 lastRender = startTime
 
 print("starting render for " + str(renderLength) + " seconds")
