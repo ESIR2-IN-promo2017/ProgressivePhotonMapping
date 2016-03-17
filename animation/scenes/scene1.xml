@@ -66,6 +66,10 @@
         <string name="material" value="none"/>
     </bsdf>
 
+    <bsdf type="plastic" id="blackPlastic">
+        <srgb name="diffuseReflectance" value="#333333"/>
+    </bsdf>
+
     <shape type="shapegroup" id="garageDoor">
         <shape type="obj">
             <string name="filename" value="meshes/garageDoor/garageDoor_frame.obj"/>
@@ -174,6 +178,7 @@
         <ref id="garageDoor"/>
         <transform name="toWorld">
             <rotate x="1" angle="-90"/>
+            <translate z="20"/>
         </transform>
     </shape>
 
@@ -197,7 +202,7 @@
     </shape>
     <shape type="obj">
         <string name="filename" value="meshes/neon/neon_back.obj"/>
-        <ref id="white" />
+        <ref id="blackPlastic" />
         <transform name="toWorld">
             <translate x="50" y="50" z="-250"/>
         </transform>
@@ -208,6 +213,19 @@
         <transform name="toWorld">
             <rotate x="1" angle="-90"/>
             <scale value="1000"/>
+        </transform>
+        <bsdf type="roughdiffuse">
+            <texture name="reflectance" type="checkerboard">
+                <float name="uvscale" value="10"/>
+            </texture>
+        </bsdf>
+    </shape>
+
+    <!-- mur 1 -->
+    <shape type="rectangle">
+        <transform name="toWorld">
+            <scale x="300" y="120"/>
+            <translate x="300" y="120" z="-250"/>
         </transform>
         <bsdf type="roughdiffuse">
             <texture name="reflectance" type="checkerboard">
