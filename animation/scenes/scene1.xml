@@ -5,13 +5,13 @@
 
     <sensor type="perspective">
         <float name="farClip" value="2800"/>
-        <float name="focusDistance" value="165.154"/>
+        <float name="focusDistance" value="633.752"/>
         <float name="fov" value="39.3077"/>
         <string name="fovAxis" value="x"/>
         <float name="nearClip" value="10"/>
         <transform name="toWorld">
 
-            <lookat target="486.974, 208.888, 253.989" origin="487.61, 209.152, 254.714" up="-0.174092, 0.964566, -0.198252"/>
+            <lookat target="579.241, 399.428, 689.034" origin="579.552, 399.798, 689.91" up="-0.21599, 0.924651, -0.313638"/>
         </transform>
 
         <sampler type="ldsampler"/>
@@ -77,7 +77,7 @@
         </shape>
         <shape type="obj">
             <string name="filename" value="meshes/garageDoor/garageDoor_windows.obj"/>
-            <ref id="glass" />
+            <ref id="glass"/>
         </shape>
     </shape>
 
@@ -149,25 +149,29 @@
 
     <shape type="obj">
         <string name="filename" value="meshes/lamp/lamp_chassis.obj"/>
-        <ref id="alu" />
+        <ref id="alu"/>
         <transform name="toWorld">
             <rotate x="1" angle="-90"/>
             <translate x="300" y="215" z="-140"/>
         </transform>
     </shape>
+
     <shape type="obj">
         <string name="filename" value="meshes/lamp/lamp_bulb.obj"/>
+        <!--
         <emitter type="area">
             <spectrum name="radiance" value="1000"/>
         </emitter>
+        -->
         <transform name="toWorld">
             <rotate x="1" angle="-90"/>
             <translate x="300" y="215" z="-140"/>
         </transform>
     </shape>
+
     <shape type="obj">
         <string name="filename" value="meshes/lamp/lamp_glass.obj"/>
-        <ref id="fullglass" />
+        <ref id="fullglass"/>
         <transform name="toWorld">
             <rotate x="1" angle="-90"/>
             <translate x="300" y="215" z="-140"/>
@@ -184,25 +188,29 @@
 
     <shape type="obj">
         <string name="filename" value="meshes/neon/neon_green.obj"/>
+        <!--
         <emitter type="area">
             <rgb name="radiance" value="0, 100, 0"/>
         </emitter>
+        -->
         <transform name="toWorld">
             <translate x="50" y="50" z="-250"/>
         </transform>
     </shape>
     <shape type="obj">
         <string name="filename" value="meshes/neon/neon_red.obj"/>
+        <!--
         <emitter type="area">
             <rgb name="radiance" value="100, 0, 0"/>
         </emitter>
+        -->
         <transform name="toWorld">
             <translate x="50" y="50" z="-250"/>
         </transform>
     </shape>
     <shape type="obj">
         <string name="filename" value="meshes/neon/neon_back.obj"/>
-        <ref id="blackPlastic" />
+        <ref id="blackPlastic"/>
         <transform name="toWorld">
             <translate x="50" y="50" z="-250"/>
         </transform>
@@ -227,9 +235,11 @@
             <scale x="300" y="120"/>
             <translate x="300" y="120" z="-250"/>
         </transform>
+
         <bsdf type="roughdiffuse">
-            <texture name="reflectance" type="checkerboard">
-                <float name="uvscale" value="10"/>
+            <texture name="reflectance" type="bitmap">
+                <string name="filename" value="textures/cracked_concrete.jpg"/>
+                <!--<float name="uvscale" value="10"/>-->
             </texture>
         </bsdf>
     </shape>
