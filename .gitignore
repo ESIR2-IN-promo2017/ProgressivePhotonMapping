@@ -6,7 +6,7 @@
 *.swo
 
 *.aux
-*.log
+CR/*.log
 
 *.nav
 *.toc
