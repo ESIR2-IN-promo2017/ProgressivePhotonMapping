@@ -223,7 +223,8 @@
             <scale value="1000"/>
         </transform>
         <bsdf type="roughdiffuse">
-            <texture name="reflectance" type="checkerboard">
+            <texture name="reflectance" type="bitmap">
+                <string name="filename" value="textures/concrete_stone_brick_tiles.jpg"/>
                 <float name="uvscale" value="10"/>
             </texture>
         </bsdf>
@@ -239,7 +240,6 @@
         <bsdf type="roughdiffuse">
             <texture name="reflectance" type="bitmap">
                 <string name="filename" value="textures/cracked_concrete.jpg"/>
-                <!--<float name="uvscale" value="10"/>-->
             </texture>
         </bsdf>
     </shape>
