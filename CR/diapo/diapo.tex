@@ -155,6 +155,27 @@
 \end{frame}
 
 \begin{frame}
+    \frametitle{Scalability}
+    \begin{figure}
+        \centering
+        \begin{tikzpicture}
+            \begin{axis}[
+                    scale=0.8,
+                    xlabel=cores,
+                    ylabel=SSIM,
+                    y unit=\%,
+                    legend pos=outer north east
+                ]
+                \addplot[color=red, mark=x] table[x=cores, y=SSIM R,  col sep=comma]{data/cores.csv};
+                \addplot[color=green, mark=x] table[x=cores, y=SSIM G,  col sep=comma]{data/cores.csv};
+                \addplot[color=blue, mark=x] table[x=cores, y=SSIM B,  col sep=comma]{data/cores.csv};
+                \legend{SSIM R, SSIM G, SSIM B}
+            \end{axis}
+        \end{tikzpicture}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
     \frametitle{Perception by time}
     \begin{figure}
         \centering
