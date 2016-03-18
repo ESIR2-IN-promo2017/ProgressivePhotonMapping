@@ -5,6 +5,7 @@
 \usepackage{tikz}
 \usepackage{siunitx}
 \usepackage{pgfplots}
+\usepackage{listings}
 
 \usetheme{Copenhagen}
 
@@ -15,6 +16,14 @@
 \logo{\def\svgwidth{2cm}\input{esir.pdf_tex}}
 
 \usepgfplotslibrary{units}
+
+\AtBeginSection[]
+{
+       \begin{frame}
+           \frametitle{Table of contents}
+           \tableofcontents[currentsection]
+      \end{frame}
+}
 
 \begin{document}
 \frame{\titlepage}
@@ -34,6 +43,22 @@
         \item Repeat this principle several times and calculate the average picture
     \end{itemize}
 \end{frame}
+\begin{frame}
+    \frametitle{Algorithm}
+    \tt
+    \begin{itemize}
+        \item nbIterations = 10000;
+        \item nbPhotons = 250000;
+        \item calculateAllIntersectionsWithScene();
+        \item for i = 0 to nbIterations:
+            \begin{itemize}
+                \item sendPhotons();
+                \item gatherPhotons();
+                \item meanRenders();
+            \end{itemize}
+    \end{itemize}
+\end{frame}
+
 \begin{frame}
     \frametitle{More precisely}
     \begin{figure}
@@ -70,72 +95,125 @@
     \begin{minipage}{0.5\textwidth}
     \end{minipage}
     \begin{minipage}{\textwidth}
-    \begin{figure}
-        \centering
-        \begin{tikzpicture}[scale=0.6]
-            \begin{axis}[
-                ]
-                \addplot
-                table[x=Photons per iteration, y=PSNR, col sep=comma] {data/photons.csv};
-            \end{axis}
-        \end{tikzpicture}
-        \caption{PSNR according to the number of photons per iteration}
-    \end{figure}
+        \begin{figure}
+            \centering
+            \begin{tikzpicture}[scale=0.6]
+                \begin{axis}[
+                    ]
+                    \addplot
+                    table[x=Photons per iteration, y=PSNR, col sep=comma] {data/photons.csv};
+                \end{axis}
+            \end{tikzpicture}
+            \caption{PSNR according to the number of photons per iteration}
+        \end{figure}
     \end{minipage}
 \end{frame}
 \begin{frame}
-    \frametitle{Maximum depth}
-    \begin{minipage}{0.5\textwidth}
-    \end{minipage}
-    \begin{minipage}{\textwidth}
     \begin{figure}
-        \centering
-        \begin{tikzpicture}[scale=0.6]
-            \begin{axis}[
-                ]
-                \addplot
-                table[x=Maximum depth, y=PSNR, col sep=comma] {data/depth.csv};
-            \end{axis}
-        \end{tikzpicture}
-        \caption{PSNR according to the maximum depth}
+        \includegraphics[width=0.5\textwidth]{img/params/cbox}
+        \caption{Rendu parfait}
     \end{figure}
+\end{frame}
+\begin{frame}
+    \begin{figure}
+        \includegraphics[width=0.5\textwidth]{img/params/photons}
+        \caption{500 000 photons per iteration}
+    \end{figure}
+\end{frame}
+\begin{frame}
+    \frametitle{Maximum depth}
+    %\begin{minipage}{0.4\textwidth}
+    %    \begin{figure}
+    %        \includegraphics[width=0.5\textwidth]{img/params/depth}
+    %        \caption{Max depth = 10}
+    %    \end{figure}
+    %\end{minipage}
+
+    \begin{minipage}{\textwidth}
+        \begin{figure}
+            \centering
+            \begin{tikzpicture}[scale=0.6]
+                \begin{axis}[
+                    ]
+                    \addplot
+                    table[x=Maximum depth, y=PSNR, col sep=comma] {data/depth.csv};
+                \end{axis}
+            \end{tikzpicture}
+            \caption{PSNR according to the maximum depth}
+        \end{figure}
     \end{minipage}
+\end{frame}
+\begin{frame}
+    \begin{figure}
+        \includegraphics[width=0.5\textwidth]{img/params/cbox}
+        \caption{Rendu parfait}
+    \end{figure}
+\end{frame}
+\begin{frame}
+    \begin{figure}
+        \includegraphics[width=0.5\textwidth]{img/params/depth}
+        \caption{Max depth = 10}
+    \end{figure}
 \end{frame}
 \begin{frame}
     \frametitle{Initial radius}
     \begin{minipage}{0.5\textwidth}
     \end{minipage}
     \begin{minipage}{\textwidth}
-    \begin{figure}
-        \centering
-        \begin{tikzpicture}[scale=0.6]
-            \begin{axis}[
-                ]
-                \addplot
-                table[x=Initial radius, y=PSNR, col sep=comma] {data/initRadius.csv};
-            \end{axis}
-        \end{tikzpicture}
-        \caption{PSNR according to the initial radius}
-    \end{figure}
+        \begin{figure}
+            \centering
+            \begin{tikzpicture}[scale=0.6]
+                \begin{axis}[
+                    ]
+                    \addplot
+                    table[x=Initial radius, y=PSNR, col sep=comma] {data/initRadius.csv};
+                \end{axis}
+            \end{tikzpicture}
+            \caption{PSNR according to the initial radius}
+        \end{figure}
     \end{minipage}
+\end{frame}
+\begin{frame}
+    \begin{figure}
+        \includegraphics[width=0.5\textwidth]{img/params/cbox}
+        \caption{Rendu parfait}
+    \end{figure}
+\end{frame}
+\begin{frame}
+    \begin{figure}
+        \includegraphics[width=0.5\textwidth]{img/params/radius}
+        \caption{Initial based on scene}
+    \end{figure}
 \end{frame}
 \begin{frame}
     \frametitle{Russian roulette starting depth}
     \begin{minipage}{0.5\textwidth}
     \end{minipage}
     \begin{minipage}{\textwidth}
-    \begin{figure}
-        \centering
-        \begin{tikzpicture}[scale=0.6]
-            \begin{axis}[
-                ]
-                \addplot
-                table[x=Russian roulette start depth, y=PSNR, col sep=comma] {data/RR.csv};
-            \end{axis}
-        \end{tikzpicture}
-        \caption{PSNR according to the russian roulette starting depth}
-    \end{figure}
+        \begin{figure}
+            \centering
+            \begin{tikzpicture}[scale=0.6]
+                \begin{axis}[
+                    ]
+                    \addplot
+                    table[x=Russian roulette start depth, y=PSNR, col sep=comma] {data/RR.csv};
+                \end{axis}
+            \end{tikzpicture}
+            \caption{PSNR according to the russian roulette starting depth}
+        \end{figure}
     \end{minipage}
+\end{frame}
+\begin{frame}
+    \begin{figure}
+        \includegraphics[width=0.5\textwidth]{img/params/cbox}
+        \caption{Rendu parfait}
+    \end{figure}
+\end{frame}
+\begin{frame}
+    \begin{figure}
+        \includegraphics[width=0.5\textwidth]{img/params/RR}
+        \caption{Russian Roulette based on scene}
+    \end{figure}
 \end{frame}
 
 \section{Results}
@@ -176,7 +254,7 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Perception by time}
+    \frametitle{Time-constrained rendering}
     \begin{figure}
         \centering
         \begin{tikzpicture}
